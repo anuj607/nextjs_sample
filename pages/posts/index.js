@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { useEffect, useState } from "react"; 
 
 
-export default function () {
+export default function IndexP() {
     const [posts,setPosts]=useState([]);
     const router = useRouter();
     const fetchApi=async()=>{

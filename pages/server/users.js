@@ -1,4 +1,4 @@
-export default function (props){
+export default function users(props){
     const data=props.data;
     return (<div>
     <h1>List</h1>
