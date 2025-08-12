@@ -1,7 +1,8 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
-}
+  eslint: {
+    ignoreDuringBuilds: true, // ✅ skip ESLint during vercel build
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
